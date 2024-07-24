@@ -1,0 +1,15 @@
+A. Los hooks son funciones que nos permiten utilizar caracteristicas especiales de react, los cuales nos permiten trabajar por ejemplo con el estado.
+
+B. Todo es un componente porque react maneja el estado de tal manera que cada elemento tiene el suyo propio.
+
+C. 
+- map() retorna un nuevo array transformando cada uno de los elementos.
+- forEac() recorre cada uno de los elementos de un aray.
+- filter() retorna un nuevo array con los elementos que hayan cumplido alguna condicion.
+- find() retorna el primer elemento en cumplir alguna condicion
+
+D. Este metodo permite convertir algun objeto o valir de javascript en un objeto JSON.
+
+E. Push se utiliza para enviar cambios a un repositorio remoto, Pull se utiliza para traer cambios de un repositorio remoto a un repositorio local.
+
+F. Es marcos de gestion de proyectos que ayuda los equipos a cunmplir tareas en ciertos periodos de tiempo llamados sprint.

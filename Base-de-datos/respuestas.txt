@@ -1,0 +1,17 @@
+Obtener todas las tareas registradas.
+R: SELECT * FROM tareas
+
+Obtener los usuarios que no cuenten con un teléfono registrado.
+R: SELECT * FROM Usuario WHERE teléfono IS NULL
+Obtener las tareas registradas por el usuario con el id 1.
+R: SELECT * FROM tareas WHERE user_id = 1
+
+Obtener las tareas que no cuenten con categoría.
+R: SELECT * FROM tareas LEFT JOIN CategoriasXTareas ON tarea.id = CategoriasXTareas.tara_id WHERE CategoriasXTareas.categoria_id IS NULL
+
+Obtener las categorías que no se encuentren asociadas a tareas.
+R: SELECT * FROM categories LEFT JOIN CategoriasXTareas ON categories.id = CategoriasXTareas.categoria_id WHERE CategoriasXTareas.tara_id IS NULL
+
+Obtener los comentarios y nombre de quien realizo el comentario a la tarea con id 1.
+
+Obtener todas las tareas con categoria id 1 y mostrar los siguientes campos: Titulo (Tarea), Descripción (Tarea), nombre (Categoria), nombre (Usuario), email (Usuario).
